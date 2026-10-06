@@ -5,6 +5,7 @@ import ListaCard from "./components/ListaCard";
 import { allatKartyak, allatok, elohelyek, nepszeruAllatok, taplalkozas } from "../data/data.ts"
 import AllatTabla from "./components/AllatTabla.tsx";
 import { AllatCard } from "./components/AllatCard.tsx";
+import { Lablec } from "./components/Lablec.tsx";
 
 
 function App() {
@@ -39,6 +40,8 @@ function App() {
               <li>Egy állat adatai többféle adattípust tartalmazhatnak: szöveget, számot, logikai értéket és tömböt.</li>
             </ul>
           </BevezetoResz>
+
+          <Lablec nev="Török Donát" datum={new Date()}></Lablec>
         </div>
       </div>
 
