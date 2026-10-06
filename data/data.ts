@@ -1,4 +1,5 @@
 import type { Allat } from "../src/components/AllatTabla";
+import type { AllatCardProps } from "../src/components/AllatCard";
 
 export const elohelyek: string[] = [
   "Afrikai szavanna",
@@ -59,5 +60,40 @@ export const allatok: Allat[] = [
     suly: 28,
     veszelyeztetett: false,
     kedvenc_etelek: ["Hal", "krill"],
+  },
+];
+
+export const allatKartyak: AllatCardProps[] = [
+  {
+    fajta: "Oroszlán",
+    nev: "Szimba",
+    eletkor: 8,
+    suly: 190,
+    veszelyeztetett: true,
+    kedvenc_etelek: ["marhahús", "csirkehús"],
+  },
+  {
+    fajta: "Elefánt",
+    nev: "Lili",
+    eletkor: 12,
+    suly: 3200,
+    veszelyeztetett: false,
+    kedvenc_etelek: ["fű", "levelek", "gyümölcsök"],
+  },
+  {
+    fajta: "Zsiráf",
+    nev: "Beni",
+    eletkor: 6,
+    suly: 850,
+    veszelyeztetett: true,
+    kedvenc_etelek: ["levelek", "ágak"],
+  },
+  {
+    fajta: "Panda",
+    nev: "Pötyi",
+    eletkor: 5,
+    suly: 95,
+    veszelyeztetett: true,
+    kedvenc_etelek: ["bambusz", "sárgarépa"],
   },
 ];
