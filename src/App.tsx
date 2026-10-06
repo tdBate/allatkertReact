@@ -30,6 +30,15 @@ function App() {
             <AllatCard lista={item}></AllatCard>
           ))}
 
+          <BevezetoResz title="Amit érdemes megjegyezni">
+            <ul>
+              <li>Minden állatfajnak sajátos táplálkozási igényei vannak.</li>
+              <li>Az állatok életkora és testsúlya fajonként, illetve egyedenként eltérhet.</li>
+              <li>A veszélyeztetett fajok védelme fontos természetvédelmi feladat.</li>
+              <li>Az állatkertekben az állatok gondozása mellett az ismeretterjesztés is fontos szerepet kap.</li>
+              <li>Egy állat adatai többféle adattípust tartalmazhatnak: szöveget, számot, logikai értéket és tömböt.</li>
+            </ul>
+          </BevezetoResz>
         </div>
       </div>
 
