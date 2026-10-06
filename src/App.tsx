@@ -2,7 +2,8 @@ import BevezetoResz from "./components/BevezetoResz";
 import Fejlec from "./components/Fejlec"
 import "bootstrap/dist/css/bootstrap.css";
 import ListaCard from "./components/ListaCard";
-import { elohelyek, nepszeruAllatok, taplalkozas } from "../data/data.ts"
+import { allatok, elohelyek, nepszeruAllatok, taplalkozas } from "../data/data.ts"
+import AllatTabla from "./components/AllatTabla.tsx";
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
           <ListaCard title="Élőhelyek" list={elohelyek} numbered={false}></ListaCard>
           <ListaCard title="Népszerű állatok" list={nepszeruAllatok} numbered={true}></ListaCard>
           <ListaCard title="Táplálkozás" list={taplalkozas} numbered={false}></ListaCard>
+
+          <AllatTabla lista={allatok}></AllatTabla>
         </div>
       </div>
 
