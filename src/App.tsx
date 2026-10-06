@@ -2,7 +2,7 @@ import BevezetoResz from "./components/BevezetoResz";
 import Fejlec from "./components/Fejlec"
 import "bootstrap/dist/css/bootstrap.css";
 import ListaCard from "./components/ListaCard";
-import { allatKartyak, allatok, elohelyek, nepszeruAllatok, taplalkozas } from "../data/data.ts"
+import { allatKartyak, allatok, elohelyek, nepszeruAllatok, taplalkozas } from "./data/data.ts"
 import AllatTabla from "./components/AllatTabla.tsx";
 import { AllatCard } from "./components/AllatCard.tsx";
 import { Lablec } from "./components/Lablec.tsx";

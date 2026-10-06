@@ -1,7 +1,4 @@
-export interface LablecProps {
-    nev: string;
-    datum: Date;
-}
+import type { LablecProps } from "../types/types";
 
 export function Lablec(props: LablecProps) {
     return (

@@ -1,11 +1,4 @@
-export interface AllatCardProps {
-    fajta: string;
-    nev: string;
-    eletkor: number;
-    suly: number;
-    veszelyeztetett: boolean;
-    kedvenc_etelek: string[];
-}
+import type { AllatCardProps } from "../types/types";
 
 export function AllatCard(props: { lista: AllatCardProps }) {
     return (

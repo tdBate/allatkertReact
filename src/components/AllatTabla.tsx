@@ -1,14 +1,4 @@
-export interface AllatTablaProps {
-    lista: Allat[]
-}
-
-export interface Allat {
-    nev: string;
-    eletkor: number;
-    suly: number;
-    veszelyeztetett: boolean;
-    kedvenc_etelek: string[];
-}
+import type { Allat, AllatTablaProps } from "../types/types";
 
 function AllatTabla(props: AllatTablaProps) {
     return (

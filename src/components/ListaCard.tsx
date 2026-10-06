@@ -1,8 +1,4 @@
-interface ListaCardProps {
-    title: string,
-    list: string[],
-    numbered: boolean
-}
+import type { ListaCardProps } from "../types/types";
 
 function ListaCard(props: ListaCardProps) {
     const classLi = `list-group ${props.numbered ? "list-group-numbered" : ""}`

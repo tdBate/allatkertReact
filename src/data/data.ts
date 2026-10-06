@@ -1,5 +1,4 @@
-import type { Allat } from "../src/components/AllatTabla";
-import type { AllatCardProps } from "../src/components/AllatCard";
+import type { Allat, AllatCardProps } from "../types/types";
 
 export const elohelyek: string[] = [
   "Afrikai szavanna",

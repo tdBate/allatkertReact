@@ -1,7 +1,4 @@
-interface BevezetoProps {
-    title: string
-    children: React.ReactNode;
-}
+import type { BevezetoProps } from "../types/types";
 
 function BevezetoResz(props: BevezetoProps) {
     return (<>
