@@ -6,6 +6,7 @@ import { allatKartyak, allatok, elohelyek, nepszeruAllatok, taplalkozas } from "
 import AllatTabla from "./components/AllatTabla.tsx";
 import { AllatCard } from "./components/AllatCard.tsx";
 import { Lablec } from "./components/Lablec.tsx";
+import { Kep } from "./components/Kep.tsx";
 
 
 function App() {
@@ -40,6 +41,8 @@ function App() {
               <li>Egy állat adatai többféle adattípust tartalmazhatnak: szöveget, számot, logikai értéket és tömböt.</li>
             </ul>
           </BevezetoResz>
+
+          <Kep source="https://media.cntraveler.com/photos/53e2da95dddaa35c30f604ab/master/pass/toque-macaques-sri-lanka-H-Lansdown-Alamy.jpg"></Kep>
 
           <Lablec nev="Török Donát" datum={new Date()}></Lablec>
         </div>
